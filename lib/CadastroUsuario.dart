@@ -46,6 +46,7 @@ class _CadastroUsuarioState extends State<CadastroUsuario> {
   TextEditingController email = TextEditingController();
   TextEditingController celular = TextEditingController();
   TextEditingController endereco = TextEditingController();
+  TextEditingController numero = TextEditingController();
   TextEditingController cep = TextEditingController();
   TextEditingController estado = TextEditingController();
   TextEditingController cidade = TextEditingController();
@@ -221,6 +222,17 @@ class _CadastroUsuarioState extends State<CadastroUsuario> {
                                 labelText: 'Endereço',
                                 border: OutlineInputBorder(),
                                 hintText: 'Rua/Avenida/Travessa/Alameda'),
+                          ),
+
+                          SizedBox(
+                            height: 5.0,
+                          ),
+                          TextFormField(
+                            controller: numero,
+                            decoration: InputDecoration(
+                                labelText: 'Número',
+                                border: OutlineInputBorder(),
+                                hintText: '1290'),
                           ),
                           SizedBox(
                             height: 5.0,

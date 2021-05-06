@@ -53,7 +53,7 @@ class _TelaSobreState extends State<TelaSobre> {
                     height: 30,
                     color: Colors.white,
                     child: Text(
-                      'autor:\n' + 'Wesley Ferreira Coelho',
+                      'Desenvolvedor:\n' + 'Wesley Ferreira Coelho',
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -96,9 +96,12 @@ class _TelaSobreState extends State<TelaSobre> {
                       children: [
                         Text(
                           'Aplicativo desenvolvido para venda on-line de produtos da loja Casa das Meias.' +
-                              ' A casa das Meias é uma loja de família especializada em vender meias de todos tipos e tamanhos.' +
-                              'Além de meias a loja tem também diversos modelos de cuecas e sungas.\nHa 20 anos no mercado,' +
-                              'a Casa das Meias preza pelo bom relacionamento com seus clientes.',
+                              ' A casa das Meias é uma loja de família representante de diversas marcas como Lupo, Kendall e Trifil.' +
+                              ' A loja trabalha com diversos tipos de meias, de diversos tamanhos e cores. Há 20 anos no mercado,' +
+                              ' a Casa das Meias assim como muitos outros comércios, concentra quase 100% de suas vendas no atendimento presencial aos seus clientes,' +
+                              ' e nesse atual momento de pandemia isso gerou grandes perdas no faturamento.' +
+                              ' O desenvolvimento do App Casa das Meias visa criar uma alternativa para os clientes poderem fazer suas compras sem sair de casa.' +
+                              ' Após realizada a compra pelo o App o cliente poderá receber seus produtos em casa ou retirar na loja, conforme os protocolos de saúde atualmente adotados.',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 20,
