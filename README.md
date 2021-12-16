@@ -1,6 +1,7 @@
 # app_casa_das_meias
 
-A new Flutter project.
+
+Aplicativo de Loja on-line requisito da disciplina de Desenvolvimento para dispositivos móveis.
 
 ## Getting Started
 
